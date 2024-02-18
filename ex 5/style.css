@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 140, 255);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 2.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 3vh 0vw;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: white;
+    width: 40vw;
+    max-height: 75vh;
+    border-radius: 15px;
+    padding: 3vh 2vw;
+}
+
+.container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .info{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+label{
+    font-size: 1.2em;
+}
+
+#valorInicial{
+    margin: 0vh 0.5vw;
+    height: 4vh;
+}
+
+.button{
+    margin: 1vh;
+    padding: 1vh 1.6vw;
+    border-radius: 12px;
+    border: 0;
+    background-color: rgb(0, 140, 255);
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    transition: 0.25s;
+}
+
+.button:hover{
+    background-color: rgb(9, 37, 197);
+    transition: 0.25s;
+    color: white;
+}
+
+footer{
+    margin: 1.5vh 0vw;
+    color: white;
+    text-align: center;
+    font-size: 1.15em;
+}
+
+.resultado{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+
+/*---------------------------------------------------imagens-----------------------------------------------------*/
+/*---------------------------------------------------imagens-----------------------------------------------------*/
